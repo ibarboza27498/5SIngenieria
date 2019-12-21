@@ -9,7 +9,7 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/bootstrap-4.4.1/css/bootstrap.css">
         <!-- Icono -->
-        <link rel=icon href='${pageContext.request.contextPath}/assets/img/logo-haya.png' sizes="32x32" type="image/png">
+        <link rel=icon href='${pageContext.request.contextPath}/assets/img/5s-logo.png' sizes="32x32" type="image/png">
         <title>5S Ingeieria</title>
     </head>
     <body>
