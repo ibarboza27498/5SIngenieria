@@ -1,5 +1,5 @@
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-gold">
         <div class="container">
         <a class="navbar-brand" href="#">
             <img src="${pageContext.request.contextPath}/assets/img/5s-logo.png" width="60" height="60" class="d-inline-block align-middle" alt="">
@@ -11,13 +11,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link active font-weight-bold" href="#">Nosotros</a>
+                    <a class="nav-link active font-weight-bold space" href="#"><i class="fas fa-handshake"></i>&nbsp;&nbsp;Nosotros</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active font-weight-bold" href="#">Servicios</a>
+                    <a class="nav-link active font-weight-bold space" href="#"><i class="fas fa-cogs"></i>&nbsp;&nbsp;Servicios</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active font-weight-bold" href="#">Contactenos</a>
+                    <a class="nav-link active font-weight-bold space" href="#"><i class="fas fa-address-card"></i>&nbsp;&nbsp;Contactenos</a>
                 </li>
             </ul>
         </div>
