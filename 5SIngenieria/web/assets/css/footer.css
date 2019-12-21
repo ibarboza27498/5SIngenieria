@@ -2,21 +2,22 @@ footer{
   color: white;
 }
 footer a{
-  color: #bfffff;
+  color: white;
 }
 footer a:hover{
   color: white;
 }
-
+/*derechos reservados*/
 .footer-bottom{
-  background: #3d6277;
+  background: black;
   padding: 2em;
 }
 .footer-top{
   background: #2d4958;  
 }
+/*fondo de la info*/
 .footer-middle{
-   background: #3d6277;
+   background: black;
   padding-top: 2em;
   color: white;
 }
@@ -24,6 +25,11 @@ footer a:hover{
 .subnavigation-container{
   background: #3d6277;
 }
+/*aver*/
+.list-unstyled{
+   font-size:15px;
+}
+
 .subnavigation .nav-link{
   color: white;
   font-weight: bold;

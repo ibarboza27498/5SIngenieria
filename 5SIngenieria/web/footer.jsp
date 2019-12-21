@@ -2,7 +2,7 @@
 
 <footer class="mainfooter" role="contentinfo">
     <div class="footer-middle">
-        <div class="container">
+        <div class="container font-weight-light font-size">
             <div class="row">
                 <div class="col-md-3 col-sm-6">
                     <!--Column1-->
@@ -24,11 +24,10 @@
                 <div class="col-md-3 col-sm-6">
                     <!--Column1-->
                     <div align="center" class="footer-pad">
-                        <h4>Redes Sociales</h4><br>
+                        <h6>Acerca de</h6>
                         <ul class="list-unstyled">
-                            <li><a target="_blank" href="https://www.facebook.com/5S-Ingenier%C3%ADa-e-Industrias-Generales-SAC-111999873517530/?epa=SEARCH_BOX">
-                                 </a>
-                            </li><br>
+                            <li><a target="_blank" href="">Misión</a></li>
+                            <li><a target="_blank" href="">Visión</a></li><br>
                             <li><a target="_blank" href="https://www.facebook.com/5S-Ingenier%C3%ADa-e-Industrias-Generales-SAC-111999873517530/?epa=SEARCH_BOX">
                                  </a>
                             </li>
@@ -38,14 +37,14 @@
                 <div class="col-md-3 col-sm-6">
                     <!--Column1-->
                     <div class="footer-pad">
-                        <h4>Website Information</h4>
+                        <h6>Servicios</h6>
                         <ul class="list-unstyled">
-                            <li><a href="#">Website Tutorial</a></li>
-                            <li><a href="#">Accessibility</a></li>
-                            <li><a href="#">Disclaimer</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">FAQs</a></li>
-                            <li><a href="#">Webmaster</a></li>
+                            <li><a href="#"><i class="far fa-arrow-alt-circle-right"></i>Fumigación y control de plagas</a></li>
+                            <li><a href="#">Contrucción y Arquitectura</a></li>
+                            <li><a href="#">Asesoría y Consultoría en Salud Ocupacional y Manejo Ambiental</a></li>
+                            <li><a href="#">Mantenimiento e Instalación Eléctrica</a></li>
+                            <li><a href="#">Mantenimiento e Instalación de antenas y torres de telecomunicación</a></li>
+                            <li><a href="#">Alquiler de maquinaria pesada</a></li>
                         </ul>
                     </div>
                 </div>
