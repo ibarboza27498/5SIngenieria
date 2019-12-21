@@ -1,13 +1,15 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-    <head>
+    <head>       
         <!-- Formato -->
         <meta charset="utf-8">
         <!-- Responsive Design -->
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/bootstrap-4.4.1/css/bootstrap.css">
+        <!-- Styles -->
+        <link href="${pageContext.request.contextPath}/assets/css/footer.css" rel="stylesheet" type="text/css"/>
         <!-- Icono -->
          <link rel=icon href='#' sizes="32x32" type="image/png">
         <title>5S Ingeieria</title>
