@@ -39,12 +39,12 @@
                     <div class="footer-pad">
                         <h6>Servicios</h6>
                         <ul class="list-unstyled">
-                            <li><a href="#"><i class="far fa-arrow-alt-circle-right"></i>Fumigación y control de plagas</a></li>
-                            <li><a href="#">Contrucción y Arquitectura</a></li>
-                            <li><a href="#">Asesoría y Consultoría en Salud Ocupacional y Manejo Ambiental</a></li>
-                            <li><a href="#">Mantenimiento e Instalación Eléctrica</a></li>
-                            <li><a href="#">Mantenimiento e Instalación de antenas y torres de telecomunicación</a></li>
-                            <li><a href="#">Alquiler de maquinaria pesada</a></li>
+                            <li><a href="#"><i class="fas fa-arrow-alt-circle-right"></i>&nbsp;Fumigación y control de plagas</a></li>
+                            <li><a href="#"><i class="fas fa-arrow-alt-circle-right"></i>&nbsp;Contrucción y Arquitectura</a></li>
+                            <li><a href="#"><i class="fas fa-arrow-alt-circle-right"></i>&nbsp;Asesoría y Consultoría en Salud Ocupacional y Manejo Ambiental</a></li>
+                            <li><a href="#"><i class="fas fa-arrow-alt-circle-right"></i>&nbsp;Mantenimiento e Instalación Eléctrica</a></li>
+                            <li><a href="#"><i class="fas fa-arrow-alt-circle-right"></i>&nbsp;Mantenimiento e Instalación de antenas y torres de telecomunicación</a></li>
+                            <li><a href="#"><i class="fas fa-arrow-alt-circle-right"></i>&nbsp;Alquiler de maquinaria pesada</a></li>
                         </ul>
                     </div>
                 </div>
