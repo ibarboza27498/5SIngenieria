@@ -64,7 +64,7 @@
         <div class="container">
             <div align="center" class="row">                                   
                 <div  class="col-xs-12"> 
-                    <div style="margin-left: 350px">&copy; Copyright 2019 - 5S Ingeniería. Todos los derechos reservados
+                    <div style="margin-left: 350px">&copy; Copyright 2020 - 5S Ingeniería. Todos los derechos reservados
                     </div>         
                 </div>
             </div>

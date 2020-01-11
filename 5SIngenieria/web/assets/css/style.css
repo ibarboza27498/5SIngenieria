@@ -37,3 +37,7 @@ select.form-control:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
+
+.shadow{
+    text-shadow: black 0.15em 0.15em 0.25em
+}

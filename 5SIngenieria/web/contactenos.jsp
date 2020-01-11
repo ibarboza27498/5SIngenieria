@@ -17,7 +17,7 @@
         <link href="${pageContext.request.contextPath}/assets/css/style.css" rel="stylesheet" type="text/css"/>
         <!-- Icono -->
         <link rel=icon href='#' sizes="32x32" type="image/png">
-        <title>Contáctanos | 5S Ingeniería e Industria</title>
+        <title>Contáctanos | 5S Ingeniería</title>
     </head>
     <body>
         <jsp:include page="navbar.jsp"/>
@@ -54,7 +54,7 @@
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-10 offset-lg-1 offset-sm-0">
-                       <label for="help">En que lo podemos ayudar?</label>
+                       <label for="help">¿En qué lo podemos ayudar?</label>
                     <input type="text" class="form-control" id="hekp">
                     </div>
                 </div>
@@ -63,7 +63,7 @@
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="servicio1">
                             <label class="form-check-label" for="servicio1">
-                                Construccion y arquitectura
+                                Construcción y arquitectura
                             </label>
                         </div>
                     </div>
@@ -87,7 +87,7 @@
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="servicio4">
                             <label class="form-check-label" for="servicio4">
-                                Mantennimiento y instaciones electricas 
+                                Mantenimiento e instaciones eléctricas
                             </label>
                         </div>
                     </div>
@@ -95,7 +95,7 @@
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="servicio5">
                             <label class="form-check-label" for="servicio5">
-                                Mantennimiento y instaciones de torres y antenas de telecomunicaciones
+                                Mantenimiento e instaciones de torres y antenas de telecomunicaciones
                             </label>
                         </div>
                     </div>
@@ -103,7 +103,7 @@
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="servicio6">
                             <label class="form-check-label" for="servicio6">
-                                Alquiler de maquiarias pesadas
+                                Alquiler de maquinarias pesadas
                             </label>
                         </div>
                     </div>
@@ -116,5 +116,6 @@
         </div>
         <jsp:include page="footer.jsp"/>
         <script src="${pageContext.request.contextPath}/assets/jquery/jquery-3.4.1.min.js"></script>
+        <script src="${pageContext.request.contextPath}/assets/bootstrap-4.4.1/js/bootstrap.js"></script>
     </body>
 </html>
