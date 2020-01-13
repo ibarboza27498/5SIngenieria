@@ -11,8 +11,8 @@
                             <li><a href="#"><i class="fas fa-arrow-alt-circle-right"></i>&nbsp;Contrucción y Arquitectura</a></li>
                             <li><a href="#"><i class="fas fa-arrow-alt-circle-right"></i>&nbsp;Asesoría y Consultoría en Salud Ocupacional y Manejo Ambiental</a></li>
                             <li><a href="#"><i class="fas fa-arrow-alt-circle-right"></i>&nbsp;Mantenimiento e Instalación Eléctrica</a></li>
-                            <li><a href="mantenimientoEInstalaciónDeAntenasYYorresDeTelecomunicación.jsp"><i class="fas fa-arrow-alt-circle-right"></i>&nbsp;Mantenimiento e Instalación de antenas y torres de telecomunicación</a></li>
-                            <li><a href="alquilerDeMAquinariaPesada.jsp"><i class="fas fa-arrow-alt-circle-right"></i>&nbsp;Alquiler de maquinaria pesada</a></li>
+                            <li><a href="antenas-torres.jsp"><i class="fas fa-arrow-alt-circle-right"></i>&nbsp;Mantenimiento e Instalación de antenas y torres de telecomunicación</a></li>
+                            <li><a href="alquiler-maquinaria.jsp"><i class="fas fa-arrow-alt-circle-right"></i>&nbsp;Alquiler de maquinaria pesada</a></li>
                         </ul>
                     </div>
                 </div>
