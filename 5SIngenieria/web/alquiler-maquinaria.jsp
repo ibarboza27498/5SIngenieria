@@ -110,13 +110,13 @@
 
                 <p class="lead">El servicio de alquiler de maquinaria pesada que le ofrece 5S Ingeniería e Industrias S.A. 
                     está dirigido a los sectores de la construcción, la minería y la industria.
-                    Nuestra empresa de origen español tiene una dilatada trayectoria en este sector,
+                    Nuestra empresa tiene una dilatada trayectoria en este sector,
                     desde mucho tiempo, por lo que conocemos las necesidades que puede requerir su empresa y
                     somos capaces de ofrecerle soluciones técnicas y eficaces gracias a la labor de nuestro personal
                     técnico y laboral.
 
-                    Nuestra flota de maquinaria pesada en alquiler está especialmente orientada a los sectores de la construcción, la industria y la minería. Esto nos ha permitido involucrarnos directamente en grandes proyectos tanto de iniciativa privada como pública como el encauzamiento del río Rímac y la construcción de la línea 2 del Metro de Lima donde hemos desarrollado nuestra capacidad para llevar a cabo cimentaciones profundas.
-                    Nuestra empresa continúa ampliando sus horizontes actualmente en Perú desarrollando importantes proyectos de obra e infraestructuras.
+                    Nuestra flota de maquinaria pesada en alquiler está especialmente orientada a los sectores de la construcción, la industria y la minería. Esto nos ha permitido involucrarnos directamente en grandes proyectos tanto de iniciativa privada como públicas.
+                    Nuestra empresa continúa ampliando sus horizontes desarrollando importantes proyectos de obra e infraestructuras.
                 </p>
                 <h3 class="display-4">Especialistas en demoliciones</h3>
 

@@ -79,11 +79,7 @@
         <div class="container">
             <div class="jumbotron-fluid">
                 <h1 class="display-4"> Mantenimiento e Instalación de antenas y torres de telecomunicación.</h1>
-                <p class="lead">5S Ingeniería e Industrias S.A. participa en grandes proyectos constructivos y de obra pública en Perú.
-                    Somos un referente en el sector del alquiler de maquinaria pesada.
-                    Contamos con una amplia flota de vehículos y maquinaria para los sectores de la industria, la construcción y la minería.
-
-                </p>
+                
                 <hr class="my-4">
                 <h3 class="display-4">¿Qué es?</h3>
                 <p class="lead">
