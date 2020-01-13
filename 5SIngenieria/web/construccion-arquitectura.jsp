@@ -17,7 +17,7 @@
         <link href="${pageContext.request.contextPath}/assets/css/style.css" rel="stylesheet" type="text/css"/>
         <!-- Icono -->
         <link rel=icon href='#' sizes="32x32" type="image/png">
-        <title>Construcción &AMP; Arquitectura | 5S Ingeniería e Industria</title>
+        <title>Construcción &AMP; Arquitectura | 5S Ingeniería</title>
     </head>
     <body>
         <jsp:include page="navbar.jsp"/>
@@ -28,11 +28,11 @@
                 <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
             </ol>
-            <div class="carousel-inner">
+            <div class="carousel-inner embed-responsive ">
                 <div class="carousel-item active">
-                    <img src="assets/img/slide-construccion-1.jpg" class="d-block w-100" alt="...">
+                    <img src="assets/img/slide-construccion-1.jpg" class="d-block w-100 " alt="...">
                     <div class="carousel-caption d-none d-md-block shadow">
-                        <h5>SOMOS LIDERES EN LA INDUSTRIA DE LA CONSTRUCCION</h5>
+                        <h5>SOMOS LIDERES EN LA INDUSTRIA DE LA CONSTRUCCIÓN</h5>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -44,11 +44,11 @@
                 <div class="carousel-item">
                     <img src="assets/img/slide-construccion-3.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block shadow">
-                        <h5>MATERIALES DE CONSTRUCCION DE PRIMERA CALIDAD</h5>
+                        <h5>MATERIALES DE CONSTRUCCIÓN DE PRIMERA CALIDAD</h5>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="assets/img/slide-construccion-4.jpg" class="d-block w-100" alt="...">
+                    <img src="assets/img/slide-construccion-4.jpg" class="d-block w-100 " alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>LOS MEJORES PROFESIONALES PARA SU PROYECTO</h5>
                     </div>
@@ -62,6 +62,60 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
+        </div>
+        <div class="container">
+            <p class="mt-3 mb-3">
+                Te ofrecemos una gran variedad de servicios profesionales en diseño y desarrollo arquitectónico 
+                para materializar el proyecto que tanto deseas.<br><br>
+
+                Del mismo modo nace de la necesidad de ver los proyectos de nuestros clientes realizados al nivel de detalle que alcanzamos.
+                La calidad y la experiencia forman parte del servicio que brindamos a nuestros nuestros clientes, quienes buscan calidad a precios competitivos.
+            </p>
+            <hr class="dashed">
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col mb-2">
+                    <div class="card h-100">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <img src="assets/img/diseno-arquitectonico.jpeg" class="card-img-top embed-responsive-item" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Diseño arquitectónico</h5>
+                            <p class="card-text">Servicios de diseño, arquitectura y construcción de casas, departamentos, edificios dando el uso adecuado y sacanadop el maximo provecho a los espacios.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-2">
+                    <div class="card h-100">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <img src="assets/img/pintando-pared.jpg" class="card-img-top embed-responsive-item" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Pintado de fachadas</h5>
+                            <p class="card-text">Servicios de pintado de fachadas de edificios residenciales, comerciales e industriales por especialistas y personal especializado en trabajos en altura.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-2">
+                    <div class="card h-100">
+                         <div class="embed-responsive embed-responsive-16by9">
+                             <img src="assets/img/construccion-estructura.jpg" class="card-img-top embed-responsive-item" alt="...">
+                        </div><div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-2">
+                    <div class="card h-100">
+                         <div class="embed-responsive embed-responsive-16by9">
+                             <img src="assets/img/contruccion-casa.jpg" class="card-img-top embed-responsive-item" alt="...">
+                        </div><div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <jsp:include page="footer.jsp"/>
         <script src="${pageContext.request.contextPath}/assets/jquery/jquery-3.4.1.min.js"></script>

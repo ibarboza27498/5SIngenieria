@@ -41,3 +41,7 @@ select.form-control:focus {
 .shadow{
     text-shadow: black 0.15em 0.15em 0.25em
 }
+
+hr.dashed {
+    border-top: 2px dashed #999;
+}
