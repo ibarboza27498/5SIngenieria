@@ -72,7 +72,7 @@
                 La calidad y la experiencia forman parte del servicio que brindamos a nuestros nuestros clientes, quienes buscan calidad a precios competitivos.
             </p>
             <hr class="dashed">
-            <div class="row row-cols-1 row-cols-md-2">
+            <div class="row row-cols-1 row-cols-md-2 mb-3">
                 <div class="col mb-2">
                     <div class="card h-100">
                         <div class="embed-responsive embed-responsive-16by9">
@@ -100,8 +100,8 @@
                          <div class="embed-responsive embed-responsive-16by9">
                              <img src="assets/img/construccion-estructura.jpg" class="card-img-top embed-responsive-item" alt="...">
                         </div><div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                            <h5 class="card-title">Construcción de estructuras</h5>
+                            <p class="card-text">Servicio de construcción de estructuras con varios proyectos para diversos sectores e industrias.</p>
                         </div>
                     </div>
                 </div>
@@ -110,8 +110,8 @@
                          <div class="embed-responsive embed-responsive-16by9">
                              <img src="assets/img/contruccion-casa.jpg" class="card-img-top embed-responsive-item" alt="...">
                         </div><div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <h5 class="card-title">Diseño y construcción de casas</h5>
+                            <p class="card-text">Servicios diseño y construcción de casas o vivienda de campo con alto nivel en diseño, confort y calidad constructiva</p>
                         </div>
                     </div>
                 </div>
