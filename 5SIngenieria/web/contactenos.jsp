@@ -16,7 +16,7 @@
         <link href="${pageContext.request.contextPath}/assets/css/footer.css" rel="stylesheet" type="text/css"/>
         <link href="${pageContext.request.contextPath}/assets/css/style.css" rel="stylesheet" type="text/css"/>
         <!-- Icono -->
-        <link rel=icon href='#' sizes="32x32" type="image/png">
+        <link rel=icon href='assets/img/5s-logo.png' sizes="32x32" type="image/png">
         <title>Contáctanos | 5S Ingeniería</title>
     </head>
     <body>

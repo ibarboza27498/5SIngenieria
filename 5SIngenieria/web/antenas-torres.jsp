@@ -16,8 +16,8 @@
         <link href="${pageContext.request.contextPath}/assets/css/footer.css" rel="stylesheet" type="text/css"/>
         <link href="${pageContext.request.contextPath}/assets/css/style.css" rel="stylesheet" type="text/css"/>
         <!-- Icono -->
-        <link rel=icon href='#' sizes="32x32" type="image/png">
-        <title>5S Ingenieria</title>
+        <link rel=icon href='assets/img/5s-logo.png' sizes="32x32" type="image/png">
+        <title>Antenas y Torres de Telecomunicaciones | 5S Ingenieria</title>
     </head>
     <body>
         <jsp:include page="navbar.jsp"/>
