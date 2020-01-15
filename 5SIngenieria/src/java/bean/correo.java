@@ -24,7 +24,7 @@ public class correo {
     public correo() {
         this.correo = "ibarboza27498@gmail.com";
         this.password = "ahhtjjudlqsgbkeh";
-        this.correoEmpresa = "pasqueldelaguilaaugustojunior@gmail.com";
+        this.correoEmpresa = "ibarboza27498@gmail.com";
         this.nombre = "Pedro de las casas";
         this.email = "";
         this.telefono = "";
