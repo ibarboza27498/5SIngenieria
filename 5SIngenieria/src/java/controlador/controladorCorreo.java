@@ -5,8 +5,13 @@
  */
 package controlador;
 
+import bean.correo;
+import dao.DAOCorreo;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.mail.MessagingException;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -17,7 +22,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author pasquel
  */
-@WebServlet(name = "controladorCorreo", urlPatterns = {"/controladorCorreo.do"})
+@WebServlet(name = "controladorCorreo", urlPatterns = {"/Correo.do"})
 public class controladorCorreo extends HttpServlet {
 
     /**
@@ -33,16 +38,25 @@ public class controladorCorreo extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
-            /* TODO output your page here. You may use following sample code. */
-            out.println("<!DOCTYPE html>");
-            out.println("<html>");
-            out.println("<head>");
-            out.println("<title>Servlet controladorCorreo</title>");            
-            out.println("</head>");
-            out.println("<body>");
-            out.println("<h1>Servlet controladorCorreo at " + request.getContextPath() + "</h1>");
-            out.println("</body>");
-            out.println("</html>");
+            DAOCorreo dao= new DAOCorreo();
+            correo c = new correo();
+            c.setEmail(request.getParameter("email").trim());
+            c.setNombre(request.getParameter("nombre").trim());
+            c.setTelefono(request.getParameter("telefono").trim());
+            c.setArea(request.getParameter("servicio").trim());
+            c.setMensaje(request.getParameter("help").trim());
+            c.setPresupuesto(request.getParameter("presupuesto").trim());
+            
+            try {
+                if(dao.enviarCorreo(c)){
+                    out.print(1);
+                }else{
+                    out.print(0);
+                }
+            } catch (MessagingException ex) {
+                Logger.getLogger(controladorCorreo.class.getName()).log(Level.SEVERE, null, ex);
+            }
+                    
         }
     }
 

@@ -13,7 +13,6 @@ public class correo {
 
     private String correo;
     private String password;
-    private String correoEmpresa;
     private String nombre;
     private String email;
     private String telefono;
@@ -24,8 +23,7 @@ public class correo {
     public correo() {
         this.correo = "ibarboza27498@gmail.com";
         this.password = "ahhtjjudlqsgbkeh";
-        this.correoEmpresa = "ibarboza27498@gmail.com";
-        this.nombre = "Pedro de las casas";
+        this.nombre = "";
         this.email = "";
         this.telefono = "";
         this.presupuesto = "";
@@ -33,10 +31,9 @@ public class correo {
         this.area = "";
     }
 
-    public correo(String correo, String password, String correoEmpresa, String nombre, String email, String telefono, String presupuesto, String mensaje, String area) {
+    public correo(String correo, String password, String nombre, String email, String telefono, String presupuesto, String mensaje, String area) {
         this.correo = correo;
         this.password = password;
-        this.correoEmpresa = correoEmpresa;
         this.nombre = nombre;
         this.email = email;
         this.telefono = telefono;
@@ -61,13 +58,7 @@ public class correo {
         this.password = password;
     }
 
-    public String getCorreoEmpresa() {
-        return correoEmpresa;
-    }
-
-    public void setCorreoEmpresa(String correoEmpresa) {
-        this.correoEmpresa = correoEmpresa;
-    }
+    
 
     public String getNombre() {
         return nombre;

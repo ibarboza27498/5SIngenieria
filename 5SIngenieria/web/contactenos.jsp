@@ -31,37 +31,37 @@
             <div class="text-center mb-5">
                 <h1>Contáctenos y lo ayudaremos</h1>
             </div>
-            <form class="reduce mb-5">
+            <form class="reduce mb-5" action="Correo.do" method="POST" id="contactenos-form" autocomplete="off">
                 <div class="form-row">
                     <div class="form-group col-md-5 offset-lg-1 offset-sm-0">
                         <label for="name">Nombre</label>
-                        <input type="text" class="form-control" id="name">
+                        <input type="text" class="form-control" name="nombre"id="name" required="">
                     </div>
                     <div class="form-group col-md-5 off">
                         <label for="e-mail">E-mail</label>
-                        <input type="email" class="form-control" id="e-mail">
+                        <input type="email" class="form-control" name="email" id="e-mail" required="">
                     </div>
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-5 offset-lg-1 offset-sm-0">
                         <label for="telephone">Teléfono</label>
-                        <input type="number" class="form-control" id="telephone">
+                        <input type="number" class="form-control" name="telefono" id="telephone"required="">
                     </div>
                     <div class="form-group col-md-5">
                         <label for="budget">Presupuesto</label>
-                        <input type="number" class="form-control" id="budget">
+                        <input type="number" class="form-control" name="presupuesto" id="budget" required=""> 
                     </div>
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-10 offset-lg-1 offset-sm-0">
-                       <label for="help">¿En qué lo podemos ayudar?</label>
-                    <input type="text" class="form-control" id="hekp">
+                        <label for="help">¿En qué lo podemos ayudar?</label>
+                        <input type="text" class="form-control" name="help" id="help" required="">
                     </div>
                 </div>
                 <div class="form-row mt-3">
                     <div class="form-group col-md-5 offset-lg-1 offset-sm-0">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="servicio1">
+                            <input class="form-check-input" type="radio" name="servicio" value="Construcción y arquitectura" id="servicio1" required="">
                             <label class="form-check-label" for="servicio1">
                                 Construcción y arquitectura
                             </label>
@@ -69,15 +69,15 @@
                     </div>
                     <div class="form-group col-md-5">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="servicio2">
+                            <input class="form-check-input"  type="radio" name="servicio"  value="Fumigacion y control de plaga" id="servicio2" required="">
                             <label class="form-check-label" for="servicio2">
                                 Fumigacion y control de plaga
                             </label>
                         </div>
                     </div>
-                     <div class="form-group col-md-5 offset-lg-1 offset-sm-0">
+                    <div class="form-group col-md-5 offset-lg-1 offset-sm-0">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="servicio3">
+                            <input class="form-check-input" type="radio" name="servicio"  value="Asesoria y consultoria en salud ocupacional y manejo ambiental" id="servicio3" required="">
                             <label class="form-check-label" for="servicio3">
                                 Asesoria y consultoria en salud ocupacional y manejo ambiental
                             </label>
@@ -85,23 +85,23 @@
                     </div>
                     <div class="form-group col-md-5">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="servicio4">
+                            <input class="form-check-input" type="radio" name="servicio"  value="Mantenimiento e instaciones eléctricas" id="servicio4" required="">
                             <label class="form-check-label" for="servicio4">
                                 Mantenimiento e instaciones eléctricas
                             </label>
                         </div>
                     </div>
-                     <div class="form-group col-md-5 offset-lg-1 offset-sm-0">
+                    <div class="form-group col-md-5 offset-lg-1 offset-sm-0">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="servicio5">
+                            <input class="form-check-input"  type="radio" name="servicio"  value="Mantenimiento e instaciones de torres y antenas de telecomunicaciones" id="servicio5" required="">
                             <label class="form-check-label" for="servicio5">
                                 Mantenimiento e instaciones de torres y antenas de telecomunicaciones
                             </label>
                         </div>
                     </div>
-                     <div class="form-group col-md-5">
+                    <div class="form-group col-md-5">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="servicio6">
+                            <input class="form-check-input" type="radio" name="servicio"  value="Alquiler de maquinarias pesadas" id="servicio6" required="">
                             <label class="form-check-label" for="servicio6">
                                 Alquiler de maquinarias pesadas
                             </label>
@@ -111,12 +111,25 @@
                 <div class="text-center">
                     <button type="submit" class="btn btn-warning text-center font-weight-bold">Conversemos</button>
                 </div>
-                
+
             </form>
+        </div><div class="modal fade" id="load" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <p class="h1">Cargando...</p>
+                        <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+                </div>
+                    </div>
+                   
+                </div>
+            </div>
         </div>
+
         <jsp:include page="footer.jsp"/>
-        <script src="assets/js/contactenos.js"></script>
         <script src="${pageContext.request.contextPath}/assets/jquery/jquery-3.4.1.min.js"></script>
         <script src="${pageContext.request.contextPath}/assets/bootstrap-4.4.1/js/bootstrap.js"></script>
+        <script src="${pageContext.request.contextPath}/assets/js/contactenos.js"></script>
     </body>
 </html>
