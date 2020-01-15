@@ -115,6 +115,7 @@
             </form>
         </div>
         <jsp:include page="footer.jsp"/>
+        <script src="assets/js/contactenos.js"></script>
         <script src="${pageContext.request.contextPath}/assets/jquery/jquery-3.4.1.min.js"></script>
         <script src="${pageContext.request.contextPath}/assets/bootstrap-4.4.1/js/bootstrap.js"></script>
     </body>
