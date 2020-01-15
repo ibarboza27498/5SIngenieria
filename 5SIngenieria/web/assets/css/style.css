@@ -151,6 +151,9 @@ body.body {
   display:none;
 }
 
+.ow-break-word {
+   overflow-wrap: break-word;
+}
 @media only screen and (max-width: 767px) {
     .notfound .notfound-404 h2 {
         font-size: 40px;
@@ -167,4 +170,5 @@ body.body {
   #notfound {
     height:100vh;
   }
+  
 }
