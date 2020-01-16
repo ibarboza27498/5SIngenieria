@@ -30,7 +30,7 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="assets/img/Telecom1.jpg" class="d-block w-100 " height="500" width="1000" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption d-none d-md-block shadow">
                         <h5>Torres de telecomunicaciones.</h5>
                         <p>Las torres y mástiles de telecomunicaciones son
                             estructuras artificiales diseñadas para soportar
@@ -43,7 +43,7 @@
                 </div>
                 <div class="carousel-item">
                     <img src="assets/img/Telecom2.jpg" class="d-block w-100" alt="..." height="500" width="1000"   >
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption d-none d-md-block shadow">
                         <h5>Torres de telecomunicaciones.</h5>
                         <p>Estructuras utilizadas en Telecomunicaciones QUE
                             sirven para la transmisión de señales,como en el 
@@ -53,7 +53,7 @@
                 </div>
                 <div class="carousel-item">
                     <img src="assets/img/Telecom3.jpg" class="d-block w-100" alt="..." height="500" width="1000" >
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption d-none d-md-block shadow">
                         <h5>Torres de telecomunicaciones.</h5>
                         <p>La Radiofrecuencia y Transmisión determinan la localización de las antenas, 
                             y su altura para que funcionen correctamente.

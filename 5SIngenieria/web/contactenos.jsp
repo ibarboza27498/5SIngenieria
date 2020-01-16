@@ -49,7 +49,7 @@
                     </div>
                     <div class="form-group col-md-5">
                         <label for="budget">Presupuesto</label>
-                        <input type="number" class="form-control" name="presupuesto" id="budget" required=""> 
+                        <input type="number" class="form-control" name="presupuesto" id="budget"> 
                     </div>
                 </div>
                 <div class="form-row">

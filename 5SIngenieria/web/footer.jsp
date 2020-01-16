@@ -10,7 +10,7 @@
                             <li><a href="fumigacion.jsp"><i class="fas fa-arrow-alt-circle-right"></i>&nbsp;Fumigación y control de plagas</a></li>
                             <li><a href="construccion-arquitectura.jsp"><i class="fas fa-arrow-alt-circle-right"></i>&nbsp;Contrucción y Arquitectura</a></li>
                             <li><a href="saludOcupacionalyMedioambiente.jsp"><i class="fas fa-arrow-alt-circle-right"></i>&nbsp;Asesoría y Consultoría en Salud Ocupacional y Manejo Ambiental</a></li>
-                            <li><a href="mantenimiento-instalacione.jsp"><i class="fas fa-arrow-alt-circle-right"></i>&nbsp;Mantenimiento e Instalación Eléctrica</a></li>
+                            <li><a href="mantenimiento-instalacione.jsp"><i class="fas fa-arrow-alt-circle-right"></i>&nbsp;Mantenimiento e Instalaciones Eléctricas</a></li>
                             <li><a href="antenas-torres.jsp"><i class="fas fa-arrow-alt-circle-right"></i>&nbsp;Mantenimiento e Instalación de antenas y torres de telecomunicación</a></li>
                             <li><a href="alquiler-maquinaria.jsp"><i class="fas fa-arrow-alt-circle-right"></i>&nbsp;Alquiler de maquinaria pesada</a></li>
                         </ul>

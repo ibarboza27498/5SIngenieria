@@ -18,111 +18,111 @@
         <link href="${pageContext.request.contextPath}/assets/css/style.css" rel="stylesheet" type="text/css"/>
         <!-- Icono -->
         <link rel=icon href='assets/img/5s-logo.png' sizes="32x32" type="image/png">
+        <title>Asesoría y Consultoría en Salud Ocupacional y Manejo Ambiental | 5S Ingenieria</title>
     </head>
     <body>
         <jsp:include page="navbar.jsp"/>
         <header class="masthead">
             <div id="carouselExampleIndicators" class="carousel slide  carousel-fade" data-ride="carousel">		
-			<div class="carousel-inner">
-			<div class="carousel-item active" >
-			<img class="d-block w-100" src="https://nextgroupperu.com/wp-content/themes/nex/images/seguridad-y-salud-nextgroupperu-2.jpg" data-holder-rendered="true">
-			<div class="carousel-caption d-none d-md-block caption-seguridad" >
-			<h5>SU MEJOR ALIADO </h5>
-			<p>Ingenieros,consultores y asesores especializados en seguridad en el trabajo,salud ocupacional,
-                        medio ambiente  y responsabilidad social</p>
-			</div>
-			</div>
-			</div>	
+                <div class="carousel-inner">
+                    <div class="carousel-item active" >
+                        <img class="d-block w-100" src="assets/img/seguridad-salud-slide.jpg" data-holder-rendered="true">
+                        <div class="carousel-caption d-none d-md-block caption-seguridad" >
+                            <h5>SU MEJOR ALIADO </h5>
+                            <p>Ingenieros,consultores y asesores especializados en seguridad en el trabajo,salud ocupacional,
+                                medio ambiente  y responsabilidad social</p>
+                        </div>
+                    </div>
+                </div>	
             </div>
             <div class="main">
                 <div class="container"><br>
-		<div class="row">
-			<div class="col-lg-6 mx-auto text-center">
-				<img class="img-fluid" style="margin-top: 6px" src="https://nextgroupperu.com/wp-content/themes/nex/images/servicio-seguridad-y-salud-en-el-trabajo-interna.jpg" />	
-			</div>
-                    
-			<div class="col-lg-6 mx-auto ">
+                    <div class="row">
+                        <div class="col-lg-6 mx-auto text-center">
+                            <img class="img-fluid" style="margin-top: 6px" src="assets/img/seguridad-salud-1.jpg" />	
+                        </div>
 
-				<p style="text-align: left;">Nos aseguramos de que cumplas con todos los requisitos de la Ley Nro. 29783 para que evites multas y accidentes de trabajo dentro de tu empresa. Te asesoraremos para que protejas a tus colaboradores y tu empresa de posibles riesgos operacionales. </p>
+                        <div class="col-lg-6 mx-auto ">
 
-				<p style="text-align: left;"><b>Nuestro servicio incluye:</b></p>
+                            <p style="text-align: left;">Nos aseguramos de que cumplas con todos los requisitos de la Ley Nro. 29783 para que evites multas y accidentes de trabajo dentro de tu empresa. Te asesoraremos para que protejas a tus colaboradores y tu empresa de posibles riesgos operacionales. </p>
 
-				<ul class="text-left" style="margin-left: 40px">
+                            <p style="text-align: left;"><b>Nuestro servicio incluye:</b></p>
 
-					<li>Diseño y revisión de Matriz IPERC.</li>
+                            <ul class="text-left" style="margin-left: 40px">
 
-					<li>Dirección del Comité de SST.</li>
+                                <li>Diseño y revisión de Matriz IPERC.</li>
 
-					<li>Diseño de Reglamente Interno de Seguridad.</li>								
+                                <li>Dirección del Comité de SST.</li>
 
-					<li>Diseño de Mapa de Riesgo.</li>
+                                <li>Diseño de Reglamente Interno de Seguridad.</li>								
 
-					<li>Diseño de Mapa de Evacuación.</li>
+                                <li>Diseño de Mapa de Riesgo.</li>
 
-					<li>Diseño y revisión del Plan y Programa de SST.</li>
+                                <li>Diseño de Mapa de Evacuación.</li>
 
-					<li>Diseño y revisión del Reglamente Interno de SST.</li>
+                                <li>Diseño y revisión del Plan y Programa de SST.</li>
 
-					<li>Ejecución de inspecciones.</li>
+                                <li>Diseño y revisión del Reglamente Interno de SST.</li>
 
-					<li>Ejecución de auditorías de seguridad.</li>
+                                <li>Ejecución de inspecciones.</li>
 
-					<li>Preparación para Inspecciones INDECI.</li>
+                                <li>Ejecución de auditorías de seguridad.</li>
 
-					<li>Representación ante las inspecciones de SUNAFIL u otra autoridad competente.</li>
-				</ul>
-                    
-			     <br><br>
-			</div>
-		</div>
-	</div>
-</div>
-             <div class="main">
-                <div class="container"><br>
-		<div class="row">
-			<div class="col-lg-6 mx-auto text-center">
-				<img class="img-fluid" style="margin-top: 6px" src="assets/img/manejo-ambiental.jpg" />	
-			</div>
-                    
-			<div class="col-lg-6 mx-auto ">
+                                <li>Preparación para Inspecciones INDECI.</li>
 
-				<p style="text-align: left;">Estudios ambientales en cualquier sector </p>
+                                <li>Representación ante las inspecciones de SUNAFIL u otra autoridad competente.</li>
+                            </ul>
 
-				<ul class="text-left" style="margin-left: 40px">
+                            <br><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main">
+                <div class="container mb-3"><br>
+                    <div class="row">
+                        <div class="col-lg-6 mx-auto text-center">
+                            <img class="img-fluid" style="margin-top: 6px" src="assets/img/manejo-ambiental.jpg" />	
+                        </div>
 
-					<li>Estudios de impacto ambiental.</li>
+                        <div class="col-lg-6 mx-auto ">
 
-					<li>Evaluación y control de ruido.</li>
-                                        
-                                        <li>Evaluación de biodiversidad.</li>
-                                        
-                                        <li>Estudios de calidad de aire.</li>
-                                        
-                                        <li>Estudios de calidad de agua.</li>
-                                        
-                                        <li>Declaración de impacto ambiental - "DIA".</li>
-                                        
-                                        <li>Diágnosticos ambientales preliminares - "DAP".</li>
-                                        
-                                        <li>Programa de adecuación de manejo ambiental - "PAMA".</li>
-                                        
-                                        <li>Planes de manejo ambiental "PMA".</li>
+                            <p style="text-align: left;">Estudios ambientales en cualquier sector </p>
 
-                                        <li>Planes de cierre.</li>
-                                        
-                                        <li>Plan de manejo de residuos sólidos.</li>
-                                        
-                                        <li>Planes de reforectaciones - revegetación.</li>
-					
-                                </ul>
-                    
-				<a href="contactenos.jsp" data-toggle="modal" data-target="#exampleModal" class="btn btn-primary ">CONTÁCTANOS</a>
-                                <br><br> <br><br>
-			</div>
-		</div>
-	</div>
-</div>
+                            <ul class="text-left" style="margin-left: 40px">
+
+                                <li>Estudios de impacto ambiental.</li>
+
+                                <li>Evaluación y control de ruido.</li>
+
+                                <li>Evaluación de biodiversidad.</li>
+
+                                <li>Estudios de calidad de aire.</li>
+
+                                <li>Estudios de calidad de agua.</li>
+
+                                <li>Declaración de impacto ambiental - "DIA".</li>
+
+                                <li>Diágnosticos ambientales preliminares - "DAP".</li>
+
+                                <li>Programa de adecuación de manejo ambiental - "PAMA".</li>
+
+                                <li>Planes de manejo ambiental "PMA".</li>
+
+                                <li>Planes de cierre.</li>
+
+                                <li>Plan de manejo de residuos sólidos.</li>
+
+                                <li>Planes de reforectaciones - revegetación.</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </header>
         <jsp:include page="footer.jsp"/>
+        <script src="${pageContext.request.contextPath}/assets/jquery/jquery-3.4.1.min.js"></script>
+        <script src="${pageContext.request.contextPath}/assets/bootstrap-4.4.1/js/bootstrap.js"></script>
     </body>
 </html>

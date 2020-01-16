@@ -19,12 +19,12 @@
                         <i class="fas fa-cogs"></i>&nbsp;&nbsp;Servicios
                     </a>
                     <div class="dropdown-menu bg-gold ow-break-word" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#" style="white-space: normal;"><small><i class="fas fa-dot-circle"></i>&nbsp;&nbsp;Fumigación y control de plagas</small></a>
-                        <a class="dropdown-item" href="#" style="white-space: normal;"><small><i class="fas fa-dot-circle"></i>&nbsp;&nbsp;Contrucción y Arquitectura</small></a>
-                        <a class="dropdown-item" href="#" style="white-space: normal;"><small><i class="fas fa-dot-circle"></i>&nbsp;&nbsp;Asesoría y Consultoría en Salud Ocupacional y Manejo Ambiental</small></a>
-                        <a class="dropdown-item" href="#" style="white-space: normal;"><small><i class="fas fa-dot-circle"></i>&nbsp;&nbsp;Mantenimiento e Instalación Eléctrica</small></a>
-                        <a class="dropdown-item" href="#" style="white-space: normal;"><small><i class="fas fa-dot-circle"></i>&nbsp;&nbsp;Mantenimiento e Instalación de antenas y torres de telecomunicación</small></a>
-                        <a class="dropdown-item" href="#" style="white-space: normal;"><small><i class="fas fa-dot-circle"></i>&nbsp;&nbsp;Alquiler de maquinaria pesada</small></a>
+                        <a class="dropdown-item" href="fumigacion-control-plagas.jsp" style="white-space: normal;"><small><i class="fas fa-dot-circle"></i>&nbsp;&nbsp;Fumigación y control de plagas</small></a>
+                        <a class="dropdown-item" href="construccion-arquitectura.jsp" style="white-space: normal;"><small><i class="fas fa-dot-circle"></i>&nbsp;&nbsp;Contrucción y Arquitectura</small></a>
+                        <a class="dropdown-item" href="salud-ocupacional-medio-ambiente.jsp" style="white-space: normal;"><small><i class="fas fa-dot-circle"></i>&nbsp;&nbsp;Asesoría y Consultoría en Salud Ocupacional y Manejo Ambiental</small></a>
+                        <a class="dropdown-item" href="instalaciones-electricas.jsp" style="white-space: normal;"><small><i class="fas fa-dot-circle"></i>&nbsp;&nbsp;Mantenimiento e Instalación Eléctrica</small></a>
+                        <a class="dropdown-item" href="antenas-torres.jsp" style="white-space: normal;"><small><i class="fas fa-dot-circle"></i>&nbsp;&nbsp;Mantenimiento e Instalación de antenas y torres de telecomunicación</small></a>
+                        <a class="dropdown-item" href="alquiler-maquinaria.jsp" style="white-space: normal;"><small><i class="fas fa-dot-circle"></i>&nbsp;&nbsp;Alquiler de maquinaria pesada</small></a>
                     </div>
                 </li>
                 <li class="nav-item">

@@ -30,21 +30,21 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="assets/img/construccion.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption d-none d-md-block shadow">
                         <h5>Construcción y Arquitectura</h5>
                         <p>Soluciones innovadoras a la vanguardia nacional. Usando la mejor Tecnología y un gran equipo profesional. Depuradora de Arequipa. Sostenibilidad.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="assets/img/capacitacion.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption d-none d-md-block shadow">
                         <h5>Capacitaciones</h5>
                         <p>Pueden realizarse a la medida, según las necesidades de su empresa y pueden ser impartidos durante todo el año.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="assets/img/fumigacion.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption d-none d-md-block shadow">
                         <h5>Fumigación y control de plagas</h5>
                         <p>Atención las 24 horas profesional en Calidad, Seguridad, logística y Precios.</p>
                     </div>

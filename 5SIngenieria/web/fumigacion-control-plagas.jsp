@@ -18,6 +18,7 @@
         <link href="${pageContext.request.contextPath}/assets/css/style.css" rel="stylesheet" type="text/css"/>
         <!-- Icono -->
         <link rel=icon href='assets/img/5s-logo.png' sizes="32x32" type="image/png">
+        <title>Fumigación y control de plagas | 5S Ingenieria</title>
     </head>
     <body>
         <jsp:include page="navbar.jsp"/>
@@ -81,5 +82,7 @@
             </p>
         </section>  <br><br><br>
         <jsp:include page="footer.jsp"/>
+         <script src="${pageContext.request.contextPath}/assets/jquery/jquery-3.4.1.min.js"></script>
+        <script src="${pageContext.request.contextPath}/assets/bootstrap-4.4.1/js/bootstrap.js"></script>
     </body>
 </html>
